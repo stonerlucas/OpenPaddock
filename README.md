@@ -1,6 +1,6 @@
 # OpenPaddock
 
-> One line description — ex: "An open source F1 companion app for real fans"
+> An open source F1 webOS meant to keep real fans in the loop
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
@@ -9,20 +9,20 @@
 
 ## What is OpenPaddock?
 
-[2-3 sentences about what OpenPaddock is and who it's for]
+OpenPaddock is a webOS that is meant for F1 fans to keep in the loop. In the end I hope to include many data points for race-day as well as during the week.
 
 ---
 
 ## Features
 
 ### ✅ Built So Far
-- Garage door splash screen with spacebar interaction
+- Garage door splash screen with spacebar interaction to get to homepage
 
 ### 🚧 In Progress
-- Dashboard layout
+- Homepage/dashboard layout and functionality
 
 ### 📋 Planned
-- Live race timing & car position approximation
+- Live race timing & car position approximation as well as driver and car status
 - Championship standings
 - Driver & car analysis
 - Pit crew & team performance stats
@@ -30,21 +30,13 @@
 - Reddit r/formula1 integration
 - Historical stats vs current season comparisons
 - Session schedule in local timezone
-- Fantasy F1 data
 - Track history & characteristics
 
 ---
 
 ## Data Sources
 
-| Feature | Source |
-|---|---|
-| Live timing & telemetry | F1 SignalR |
-| Historical stats & schedule | Ergast API |
-| Detailed telemetry | FastF1 + OpenF1 |
-| News | RSS Feeds |
-| Community | Reddit API |
-| Weather | Open-Meteo |
+🚧 Under construction 🚧
 
 ---
 
@@ -52,7 +44,7 @@
 
 1. Clone the repo
 ```bash
-git clone https://github.com/YOURUSERNAME/OpenPaddock.git
+git clone https://github.com/stonerlucas/OpenPaddock.git
 ```
 2. Open `index.html` in your browser
 3. That's it — no dependencies, no install needed
@@ -60,8 +52,8 @@ git clone https://github.com/YOURUSERNAME/OpenPaddock.git
 ---
 
 ## Live Demo
-
-[OpenPaddock Live](https://YOURUSERNAME.github.io/OpenPaddock)
+Try it now!
+[OpenPaddock Live](https://stonerlucas.github.io/OpenPaddock)
 
 ---
 
@@ -81,8 +73,8 @@ This project is licensed under [CC BY-NC 4.0](https://creativecommons.org/licens
 
 ## Disclaimer
 
-OpenPaddock is an unofficial fan project. It is not affiliated with or endorsed by Formula 1, the FIA, or any F1 team.
+OpenPaddock is an unofficial fan project. It is not affiliated with or endorsed by Formula 1, or the FIA.
 
 ---
 
-*Built with ❤️ by [YOUR NAME] as part of Hack Club*
+*Built with ❤️ by an F1 fan
