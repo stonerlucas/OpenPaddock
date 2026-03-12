@@ -77,4 +77,4 @@ OpenPaddock is an unofficial fan project. It is not affiliated with or endorsed 
 
 ---
 
-*Built with ❤️ by an F1 fan
+*Built with ❤️ by Lucas S. and F1 fans around the world
