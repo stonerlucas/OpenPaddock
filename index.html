@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <!-- Splash Screen-->
+        <!-- Splash Screen --->
         <div id="splash">
         
             <div id="garage-door"></div>
@@ -20,12 +20,65 @@
 
         </div>
 
-        <!--- Dashboard-->
+        <!--- Dashboard --->
         <div id="dashboard">
-            <p>Dashboard goes here </p>
+            
+            <div id="race-widget">
+                
+                <div id="current-race-title">
+                    <h1 id="race-name">GRAND PRIX NAME</h1>
+                    <p id="race-round">ROUND 0 OF 24</p>
+                    <p id="race-countdown-label">RACE STARTS IN</p>
+                    <div id="race-countdown">
+                        <span class="countdown-value" id="race-days">00</span>D
+                        <span class="countdown-value" id="race-hrs">00</span>H
+                        <span class="countdown-value" id="race-mins">00</span>M
+                        <span class="countdown-value" id="race-secs">00</span>S
+                    </div>
+                </div>
+
+                <div id="race-schedule">
+                    <div class="session">
+                        <p class="session-label">SESSION 1</p>
+                        <p class="session-time">Day 00:00</p>
+                    </div>
+                    <div class="session">
+                        <p class="session-label">SESSION 2</p>
+                        <p class="session-time">Day 00:00</p>
+                    </div>
+                    <div class="session">
+                        <p class="session-label">SESSION 3</p>
+                        <p class="session-time">Day 00:00</p>
+                    </div>
+                    <div class="session">
+                        <p class="session-label">SESSION 4</p>
+                        <p class="session-time">Day 00:00</p>
+                    </div>
+                    <div class="session">
+                        <p class="session-label">RACE</p>
+                        <p class="session-time">Day 00:00</p>
+                    </div>
+                </div>
+
+                <div id="race-weather">
+                    <p id="weather-condition">SUNNY 25°C</p>
+                    <p id="humidity">50% HUMIDITY</p>
+                    <p id="track-temp">25°C TRACK TEMP</p>
+                </div>
+
+                <div id="timezone-difference">
+                    <p id="track-time">TRACK TIME: 00:00</p>
+                    <p id="local-time">YOUR TIME: 00:00</p>
+                </div>
+
+                <div id="live-map-btn">
+                        <a href="#" id="live-map-link">GO TO LIVE MAP →</a>
+                </div>
+
+            </div>
         </div>
 
-        <script src="script.js"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 
 </html>

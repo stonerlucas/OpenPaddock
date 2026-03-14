@@ -87,3 +87,123 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
+/* ===== RACE WIDGET ===== */
+#race-widget {
+    background: var(--surface);
+    border: 1px solid var(--door-line);
+    border-radius: 12px;
+    padding: 24px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+}
+
+/* RACE TITLE */
+#current-race-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+#race-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+#race-round {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.2em;
+}
+
+#race-countdown-label {
+    font-size: 0.75rem;
+    color: var(--accent);
+    letter-spacing: 0.3em;
+    margin-top: 8px;
+}
+
+/* RACE COUNTDOWN */
+#race-countdown {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.countdown-value {
+    background: var(--accent);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* === RACE SCHEDULE === */
+#race-schedule {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.session {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.session-label {
+    font-size: 1rem;
+    font-weight:700;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+}
+
+.session-time {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+/* === RACE WEATHER === */
+#race-weather {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+#weather-condition, #temperature, #humidity, #track-temp {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+/* === TIMEZONE DIFFERENCE === */
+#timezone-difference {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+#track-time, #local-time {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
