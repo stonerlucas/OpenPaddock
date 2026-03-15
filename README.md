@@ -1,6 +1,6 @@
 # OpenPaddock
 
-> An open source F1 webOS meant to keep real fans in the loop
+> An open source F1 webpage meant to keep real fans in the loop
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
