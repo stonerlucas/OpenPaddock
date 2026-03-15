@@ -9,7 +9,7 @@
 
 ## What is OpenPaddock?
 
-OpenPaddock is a webOS that is meant for F1 fans to keep in the loop. In the end I hope to include many data points for race-day as well as during the week.
+OpenPaddock is a webpage that is meant for F1 fans to keep in the loop. In the end I hope to include many data points for race-day as well as during the week.
 
 ---
 
@@ -17,9 +17,12 @@ OpenPaddock is a webOS that is meant for F1 fans to keep in the loop. In the end
 
 ### ✅ Built So Far
 - Garage door splash screen with spacebar interaction to get to homepage
+- Current Race widget place holder
 
 ### 🚧 In Progress
 - Homepage/dashboard layout and functionality
+- Session schedule in local timezone
+- Weather on track
 
 ### 📋 Planned
 - Live race timing & car position approximation as well as driver and car status
@@ -29,7 +32,6 @@ OpenPaddock is a webOS that is meant for F1 fans to keep in the loop. In the end
 - News aggregator (F1 Official, Autosport, Motorsport.com)
 - Reddit r/formula1 integration
 - Historical stats vs current season comparisons
-- Session schedule in local timezone
 - Track history & characteristics
 
 ---
@@ -37,6 +39,7 @@ OpenPaddock is a webOS that is meant for F1 fans to keep in the loop. In the end
 ## Data Sources
 
 🚧 Under construction 🚧
+(Still working on this)
 
 ---
 
