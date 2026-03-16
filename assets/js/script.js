@@ -5,6 +5,11 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
+// List for tap or click on mobile
+document.getElementById('splash').addEventListener('click', function() {
+    openGarage();
+});
+
 function openGarage() {
     // Trigger door animation
     document.getElementById('garage-door').classList.add('open');
